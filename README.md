@@ -28,8 +28,8 @@ Download and execute the script. Answer the questions asked by the script and it
 
 ```bash
 curl -O https://raw.githubusercontent.com/squiggly-line/wireguard-script/main/wireguard-script.sh
-chmod +x wireguard-install.sh
-./wireguard-install.sh
+chmod +x wireguard-script.sh
+./wireguard-script.sh
 ```
 
 It will install WireGuard (kernel module and tools) on the server, configure it, create a systemd service and a client configuration file.
