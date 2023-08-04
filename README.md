@@ -1,7 +1,5 @@
 # WireGuard installer
 
-![Lint](https://github.comsquiggly-line/wireguard-script/workflows/Lint/badge.svg)
-
 **This project is a bash script that aims to setup a [WireGuard](https://www.wireguard.com/) VPN on a Linux server, as easily as possible!**
 
 WireGuard is a point-to-point VPN that can be used in different ways. Here, we mean a VPN as in: the client will forward all its traffic through an encrypted tunnel to the server.
@@ -44,4 +42,4 @@ Please open an issue before submitting a PR if you want to discuss a change, esp
 
 ### Code formatting
 
-We use [shellcheck](https://github.com/koalaman/shellcheck) and [shfmt](https://github.com/mvdan/sh) to enforce bash styling guidelines and good practices. They are executed for each commit / PR with GitHub Actions, so you can check the configuration [here](https://github.com/angristan/wireguard-install/blob/master/.github/workflows/lint.yml).
+We use [shellcheck](https://github.com/koalaman/shellcheck) and [shfmt](https://github.com/mvdan/sh) to enforce bash styling guidelines and good practices. 
